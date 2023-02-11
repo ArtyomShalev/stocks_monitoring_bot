@@ -1,12 +1,11 @@
 from aiogram import Bot, Dispatcher, types
 from aiogram.utils import executor
-from config import TOKEN
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 import keyboards as kb
 
 
 sched = AsyncIOScheduler()
-bot = Bot(token=TOKEN)
+bot = Bot(token='5774234269:AAEoI1gqEKPMs3D7pgyDcI6OJ2kOeseAV0c')
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
