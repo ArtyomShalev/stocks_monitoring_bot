@@ -5,7 +5,7 @@ import keyboards as kb
 
 
 sched = AsyncIOScheduler()
-bot = Bot(token='5774234269:AAEoI1gqEKPMs3D7pgyDcI6OJ2kOeseAV0c')
+bot = Bot(token='token')
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
